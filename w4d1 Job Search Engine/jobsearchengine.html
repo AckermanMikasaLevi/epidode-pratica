@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search Engine</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(236, 236, 236);
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+    <link rel="stylesheet" href="C:\Users\39334\Desktop\epicode\w4d1 Job Search Engine\style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img 
+        width="200px"
+        src="C:\Users\39334\Desktop\epicode\w4d1 Job Search Engine\job_locator_logo_times.png" alt="job locator and slogan logo">
+    </header>
+    <h1 class="fyj">Find your dream job!</h1>
+    <input id="jobtitle" placeholder="enter desired job title" type="text" />
+    <input id="location" placeholder="enter desired job location" type="text" />
+    <button 
+    class="button"
+     onclick="Search()"> Search </button>
+    <ol class="list"></ol>
+</body>
+<script src="script1.js"></script>
+</html>

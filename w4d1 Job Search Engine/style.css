@@ -1,0 +1,23 @@
+.fyj {
+    color: rgb(207, 20, 20);
+    font: weight 500px;;
+    font-size: xx-large;
+    text-align: justify;
+}
+
+.button {
+    margin: 5px;
+    background-color: rgb(132, 126, 158);
+    border: none;
+    color: black;
+    padding: auto;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.list {
+    margin-top: 70px;
+    margin-bottom: 3px;
+    color: rgb(52, 49, 49);
+    text-align: left;
+}
