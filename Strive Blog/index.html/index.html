@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strive Blog - Autori</title>
+  <link rel="stylesheet" href="authors_page_styles.css">
+</head>
+<body>
+  <h1>Gestione Autori - Strive Blog</h1>
+
+  <h2>Lista degli Autori</h2>
+  <table id="authorsTable">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Cognome</th>
+        <th>Email</th>
+        <th>Data di Nascita</th>
+        <th>Avatar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- autori -->
+    </tbody>
+  </table>
+
+  <h2>Aggiungi un Nuovo Autore</h2>
+  <form id="authorForm">
+    <input type="text" id="name" placeholder="Nome" required>
+    <input type="text" id="lastName" placeholder="Cognome" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="text" id="birthday" placeholder="Data di Nascita (YYYY-MM-DD)" required>
+    <input type="text" id="avatar" placeholder="URL Avatar" required>
+    <button type="submit">Aggiungi Autore</button>
+  </form>
+
+  <script src="authors_page_script.js"></script>
+</body>
+</html>
+
